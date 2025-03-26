@@ -90,7 +90,7 @@
 - seccfg  
 
 ## Boot Mode & Info
-- misc *(Contains recovery bootloop info)*  
+- misc *(Contains bootmode info, specifies where to boot)*  
 - efuse  
 - para  
 

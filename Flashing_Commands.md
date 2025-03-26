@@ -1,4 +1,5 @@
 # Boot partitions slot a & b
+```bash
 fastboot flash boot_a boot_a.img
 fastboot flash dtbo_a dtbo_a.img
 fastboot flash init_boot_a init_boot_a.img
@@ -6,17 +7,19 @@ fastboot flash vendor_boot_a vendor_boot_a.img
 fastboot flash boot_b boot_b.img
 fastboot flash dtbo_b dtbo_b.img
 fastboot flash vendor_boot_b vendor_boot_b.img
-fastboot flash init_boot_b init_boot_b.img
+fastboot flash init_boot_b init_boot_b.img```
 
 # Vbmeta partitions slot a & b
+```bash
 fastboot flash vbmeta_a vbmeta_a.img
 fastboot flash vbmeta_system_a vbmeta_system_a.img
 fastboot flash vbmeta_vendor_a vbmeta_vendor_a.img
 fastboot flash vbmeta_b vbmeta_b.img
 fastboot flash vbmeta_system_b vbmeta_system_b.img
-fastboot flash vbmeta_vendor_b vbmeta_vendor_b.img
+fastboot flash vbmeta_vendor_b vbmeta_vendor_b.img```
 
 # Firmware slot a
+```bash
 fastboot flash apusys_a apusys_a.img
 fastboot flash audio_dsp_a audio_dsp_a.img
 fastboot flash ccu_a ccu_a.img
@@ -37,9 +40,10 @@ fastboot flash scp_a scp_a.img
 fastboot flash spmfw_a spmfw_a.img
 fastboot flash sspm_a sspm_a.img
 fastboot flash tee_a tee_a.img
-fastboot flash vcp_a vcp_a.img
+fastboot flash vcp_a vcp_a.img```
 
 # Firmware slot b
+```bash
 fastboot flash apusys_b apusys_b.img  
 fastboot flash audio_dsp_b audio_dsp_b.img  
 fastboot flash ccu_b ccu_b.img  
@@ -60,7 +64,8 @@ fastboot flash scp_b scp_b.img
 fastboot flash spmfw_b spmfw_b.img  
 fastboot flash sspm_b sspm_b.img  
 fastboot flash tee_b tee_b.img
-fastboot flash vcp_b vcp_b.img
+fastboot flash vcp_b vcp_b.img```
 
 # Logical Partition
-fastboot flash super super.img
+```bash
+fastboot flash super super.img```

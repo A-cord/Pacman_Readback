@@ -63,7 +63,7 @@ if %errorlevel% equ 0 (
     echo Device in ADB mode, rebooting to bootloader...
     echo Device in ADB mode, rebooting to bootloader... >> "%LOG_FILE%"
     %adb% reboot bootloader
-    timeout /t 5 >nul
+    timeout /t 10 >nul
 )
 
 :: Check if in Fastboot mode

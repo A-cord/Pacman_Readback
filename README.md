@@ -2,8 +2,15 @@
 
 ## Intrustuctions
 1. Download all files from release
-2. Download flashing script or use flashing command
-3. Reboot
+2. Ectract in single folder
+3. Download flashing script or use flashing command
+4. place inside the folder where readback files located
+5. Run the script
+6. Reboot
+
+# Extreme Brick
+1. Use the otherPartitions files and install manually
+2. You may optionally need to visit Service Centre in case of failure
 
 ## Removed Partitions (Device_specific | can't be specified)
 - nvcfg

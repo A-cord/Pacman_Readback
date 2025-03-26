@@ -1,6 +1,11 @@
 # Pacman_Readback
 
-## Removed Partitions
+## Intrustuctions
+1. Download all files from release
+2. Download flashing script or use flashing command
+3. Reboot
+
+## Removed Partitions (Device_specific | can't be specified)
 - nvcfg
 - nvram
 - nvdatafrp
@@ -11,3 +16,7 @@
 - nt_uefi
 - userdata
 - metadata
+
+## Also check Partitions Info
+
+# Thank You

@@ -1,4 +1,11 @@
 # Flashing Commands
+
+## Format Data
+```bash
+fastboot erase userdata
+fastboot erase metadata
+```
+
 ## Boot partitions slot a & b
 ```bash
 fastboot flash boot_a boot_a.img
@@ -74,4 +81,12 @@ fastboot flash vcp_b vcp_b.img
 ## Logical Partition
 ```bash
 fastboot flash super super.img
+```
+## Slot selection
+```bash
+fastboot --set-active=b
+```
+## reboot
+```bash
+fastboot reboot
 ```

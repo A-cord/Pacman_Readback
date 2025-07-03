@@ -76,6 +76,18 @@ echo Setting active slot to B...
 fastboot --set-active=b
 
 echo.
+echo Rebooting device to fastbootd...
+fastboot reboot fastbootd
+
+echo.
+echo Flashing logical partition, this may take few minutes depending on your system...
+fastboot flash super super.img
+
+echo.
+echo Setting active slot to B...
+fastboot --set-active=b
+
+echo.
 echo Rebooting device...
 fastboot reboot
 
